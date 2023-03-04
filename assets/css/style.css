@@ -1,0 +1,170 @@
+body {
+  font-family: LosAndesLight, Arial, Helvetica, sans-serifs;
+  background-color: #111111;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+/* Conteudo */
+
+header {
+  height: 10vh;
+}
+
+.navbar {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 3rem;
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+
+section.home article {
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+section.skills {
+  margin-top: 10rem;
+}
+
+section.skills article {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 20rem;
+  padding-right: 20rem;
+}
+
+.cards {
+  background-color: #1e1e1e;
+  color: white;
+  display: block;
+  border-radius: 5px;
+  padding: 0.5rem;
+  width: 10rem;
+  height: 10rem;
+  margin: 0.5rem;
+  box-shadow: 3px 4px 4px 0px #85ffae;
+}
+
+/* Imagens */
+
+.img-avatar {
+  width: 15rem;
+  border-radius: 100%;
+  box-shadow: 0px 0px 10px 1px #85ffae;
+}
+
+.avatar {
+  margin-right: 2rem;
+}
+
+/* Buttons */
+
+.links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  gap: 1.4rem;
+}
+
+.linkSocial {
+  display: flex;
+  list-style-type: none;
+  gap: 1.4rem;
+  margin: 0;
+  padding: 0;
+  justify-content: space-evenly;
+}
+
+.btn-group {
+  padding: 1rem;
+  color: white;
+  cursor: pointer;
+}
+
+.btn-group.active {
+  color: #85ffae;
+}
+
+.btn-group:hover {
+  color: #85ffae;
+}
+
+.gitIcon,
+.LinkedinIcon {
+  font-size: 3rem;
+  color: #1ed25a;
+}
+
+.gitIcon:hover,
+.LinkedinIcon:hover {
+  color: #85ffae;
+}
+
+.cv {
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #1ed25a;
+}
+
+/* Text */
+
+.title,
+.skill {
+  font-size: 3.5rem;
+  color: #1ed25a;
+}
+
+.name {
+  font-size: 3rem;
+  color: #1ed25a;
+  margin: 0rem;
+}
+
+.occupation {
+  display: flex;
+}
+
+.occupation .front {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.932);
+  cursor: default;
+  margin: 0.5rem 1rem 0.5rem 0;
+}
+
+.occupation .full {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.932);
+  cursor: default;
+  margin: 0.5rem 0 0.5rem 1rem;
+}
+
+.occupation .full:after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 20px;
+  height: 2px;
+  background-color: white;
+  color: white;
+  transform: rotate(90deg);
+  right: 1.5rem;
+  bottom: 0.7rem;
+}
